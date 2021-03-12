@@ -18,23 +18,25 @@
 <body>
     
     <nav id="navigation">
-        <div>
-            <div>
-                <div>
+        <div class="navbar">
+            <div class="navbar-logo">
+                <div class="logo">
                     <svg xmlns="http://www.w3.org/2000/svg" width="118.195" height="48" viewBox="0 0 118.195 48">
                         <path id="Path_1" data-name="Path 1" d="M619.017,711.915H608.046l-5.176,11.613c-.046-.077-.091-.154-.138-.23a22.345,22.345,0,0,0-9.326-8.4,30.648,30.648,0,0,0-13.817-2.983H554.582l-21.257,22.423V711.915h-11.04v48h11.04V747.778l6.446-6.72,15.36,18.857h42.9l4.251-10.286h22.286l4.251,10.286H640.48Zm-61.234,34.973-10.744-13.579,10.744-11.559Zm32.743-.1q-4.286,4.012-11.486,4.011H568.892v-29.76H579.04q7.2,0,11.486,4.011t4.286,10.869Q594.812,742.773,590.526,746.783Zm15.326-5.589,7.611-18.377,7.611,18.377Z" transform="translate(-522.285 -711.915)" fill="#26272d"/>
                       </svg>
-                    <span>KIDMAN & ASSOCIATES</span>
+                      <span class="navbar-logo__text">KIDMAN & ASSOCIATES</span>
                 </div>
-                <div></div>
+                <div class="navbar-mobile__menu">
+                    
+                </div>
             </div>
-            <div>
-                <ul>
-                    <li><a href="#main">HOME</a></li>
-                    <li><a href="#aboutus-section">ABOUT</a></li>
-                    <li><a href="#testimonials-section">TESTIMONIALS</a></li>
-                    <li><a href="#ourwork-section">WHAT WE OFFER</a></li>
-                    <li><a href="#contactus-section">CONTACT</a></li>
+            <div class="navbar-menu">
+                <ul class="navbar-lists">
+                    <li class="navbar-list__item"><a href="#main">HOME</a></li>
+                    <li class="navbar-list__item"><a href="#aboutus-section">ABOUT</a></li>
+                    <li class="navbar-list__item"><a href="#testimonials-section">TESTIMONIALS</a></li>
+                    <li class="navbar-list__item"><a href="#ourwork-section">WHAT WE OFFER</a></li>
+                    <li class="navbar-list__item"><a href="#contactus-section">CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -42,30 +44,33 @@
 
     <main id="main">
         <section id="header-section">
-            <div>
-                <h1>leading experts in exterior & interior design</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                <button>Learn More</button>
+            <div class="home-page">
+                <h1 class="home-page__title">leading experts in exterior & interior design</h1>
+                <p class="home-page__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <button class="home-page__button">Learn More</button>
             </div>
         </section>
 
         <section id="aboutus-section">
-            <div>
-                <div>
-                    <h2>grew from the ground up</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque recusandae tempore odit animi quo nihil 
+            <div class="about-us">
+                <div class="about-us__content">
+                    <h2 class="about-us__title">grew from the ground up</h2>
+                    <p class="about-us__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque recusandae tempore odit animi quo nihil 
                         aut, rem consequatur quisquam excepturi suscipit deleniti sunt incidunt officiis autem modi ab totam pariatur. 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sed deserunt mollitia natus placeat voluptatem ]
                         quibusdam dicta maiores blanditiis nisi? Tenetur numquam ducimus ex dolor corrupti quo recusanda.</p>
-                    <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <a href="#" class="about-us__link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="about-us__image">
+
                 </div>
             </div>
         </section>
 
         <section id="testimonials-section">
-            <div>
-                <div>
-                    <p>
+            <div class="testimonials">
+                <div class="testimonials-content">
+                    <p class="testimonials-content__text">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate veritatis accusamus alias at explicabo quod porro repellendus tempora, aspernatur iusto ex amet est. Debitis dolorum harum nobis molestiae velit Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora sapiente assumenda, impedit, recusandae quasi explicabo ex eum amet officia maxime ullam beatae a ad pariatur culpa voluptates? Expedita, dignissimos laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit harum perferendis odio cum! Quae explicabo illo hic commodi recusandae provident autem sit blanditiis! Voluptate distinctio consequatur consequuntur, reiciendis in magni? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit excepturi mollitia amet. Aliquid quos quo incidunt explicabo? Numquam culpa animi perferendis illum iste adipisci amet quasi praesentium labore? Fuga, possimus.
                     </p>
                 </div>
@@ -73,47 +78,51 @@
         </section>
 
         <section id="ourwork-section">
-            <div>
-                <div>
-                    <h2>A variety of services</h2>
-                    <h2>FOCUSED ON YOUR SUCCES</h2>
+            <div class="ourwork">
+                <div class="ourwork-main">
+                    <h2 class="ourwork-main-title">A variety of services <br>
+                    <span>FOCUSED ON YOUR SUCCES</span></h2>
                 </div>
-                <div>
-                    <h3>Interior Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corrupti, is perferendis id doloremque quo fuga, atque reiciendis ab, sed tempora facilis ipsam et accusamus ratione. Nobis, asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reiciendis temporibus perspiciatis blanditiis corporis ipsa quasi in quisquam. Labore, quibusdam architecto! Dolor minima repudiandae reiciendis neque itaque dolorum totam corrupti</p>
+                <div class="ourwork_content__box">
+                    <h3 class="content__box-title">Interior Design</h3>
+                    <p class="content__box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corrupti, is perferendis id doloremque quo fuga, atque reiciendis ab, sed tempora facilis ipsam et accusamus ratione. Nobis, asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reiciendis temporibus perspiciatis blanditiis corporis ipsa quasi in quisquam. Labore, quibusdam architecto! Dolor minima repudiandae reiciendis neque itaque dolorum totam corrupti</p>
                 </div>
-                <div>
-                    <img src="./img/interior_img.jpg" alt="Interior Design">
+                <div class="ourwork_image__box">
+                    <img class="image__box-img" src="./img/interior_img.jpg" alt="Interior Design">
                 </div>
-                <div>
-                    <h3>Exterior Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corrupti, is perferendis id doloremque quo fuga, atque reiciendis ab, sed tempora facilis ipsam et accusamus ratione. Nobis, asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reiciendis temporibus perspiciatis blanditiis corporis ipsa quasi in quisquam. Labore, quibusdam architecto! Dolor minima repudiandae reiciendis neque itaque dolorum totam corrupti</p></div>
-                <div>
-                    <img src="./img/exterior_img.jpg" alt="Exterior Design">
+                <div class="ourwork_content__box">
+                    <h3 class="content__box-title">Exterior Design</h3>
+                    <p class="content__box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corrupti, is perferendis id doloremque quo fuga, atque reiciendis ab, sed tempora facilis ipsam et accusamus ratione. Nobis, asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reiciendis temporibus perspiciatis blanditiis corporis ipsa quasi in quisquam. Labore, quibusdam architecto! Dolor minima repudiandae reiciendis neque itaque dolorum totam corrupti</p></div>
+                <div class="ourwork_image__box">
+                    <img class="image__box-img" src="./img/exterior_img.jpg" alt="Exterior Design">
                 </div>
-                <div>
-                    <h3>Commercial Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corrupti, is perferendis id doloremque quo fuga, atque reiciendis ab, sed tempora facilis ipsam et accusamus ratione. Nobis, asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reiciendis temporibus perspiciatis blanditiis corporis ipsa quasi in quisquam. Labore, quibusdam architecto! Dolor minima repudiandae reiciendis neque itaque dolorum totam corrupti</p>
+                <div class="ourwork_content__box">
+                    <h3 class="content__box-title">Commercial Design</h3>
+                    <p class="content__box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corrupti, is perferendis id doloremque quo fuga, atque reiciendis ab, sed tempora facilis ipsam et accusamus ratione. Nobis, asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reiciendis temporibus perspiciatis blanditiis corporis ipsa quasi in quisquam. Labore, quibusdam architecto! Dolor minima repudiandae reiciendis neque itaque dolorum totam corrupti</p>
                 </div>
-                <div>
-                    <img src="./img/commercial_img.jpg" alt="Commercial Design">
+                <div class="ourwork_image__box">
+                    <img class="image__box-img" src="./img/commercial_img.jpg" alt="Commercial Design">
                 </div>
             </div>
         </section>
 
         <section id="contactus-section">
-            <div>
-                <div></div>
-                <div>
-                    <h4>CONTACT US</h4>
-                    <h5>ADDRESS</h5>
-                    <p>plac Zamkowy 4, 00-277
-                    <br>Warsaw, Poland
-                    </p>
-                    <h5>E-MAIL</h5>
-                    <p>example@example.com</p>
-                    <h5>NUMBER</h5>
-                    <p>12 1231 1231 121</p>
+            <div class="contactus">
+                <div class="contactus-map">
+
+                </div>
+                <div class="contactus-info">
+                    <h4 class="contactus-title">CONTACT US</h4>
+                    <div class="contactus-info__data">
+                        <h5 class="info-data__title">ADDRESS</h5>
+                        <p class="info-data__text">plac Zamkowy 4, 00-277
+                        <br>Warsaw, Poland
+                        </p>
+                        <h5 class="info-data__title">E-MAIL</h5>
+                        <p class="info-data__text">example@example.com</p>
+                        <h5 class="info-data__title">NUMBER</h5>
+                        <p class="info-data__text">12 1231 1231 121</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -121,16 +130,16 @@
     </main>
 
     <footer id="footer">
-        <div>
-            <div>
+        <div class="footer">
+            <div class="footer-socialmedia__list">
                 <ul>
-                    <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="socialmedia-list__item"><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="socialmedia-list__item"><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li class="socialmedia-list__item"><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                 </ul>
             </div>
-            <div>
-                <span>
+            <div class="footer-rights">
+                <span class="rights-info">
                     Developed by Filip Kaczmarek <br>
                     Designed by Jason Bischak <br><br>
                     &copy; 2021 All Rights Reserved
