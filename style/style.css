@@ -114,7 +114,7 @@ body {
     display: flex; justify-content: center; align-items: center;
     min-height: 50vh;
     width: 100%;
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 
 .about-us__box {
@@ -204,7 +204,7 @@ body {
 }
 
 .ourwork{
-    padding: 2rem 0 3rem 0;
+    padding: 2rem 0 5.5rem 0;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -214,7 +214,7 @@ body {
 .ourwork-main{
     grid-column: 1 / 3;
     grid-row: 1 / 2;
-    padding: 2.5rem 0;
+    padding: 2.4rem 0;
     text-align: center;
 }
 
@@ -271,4 +271,34 @@ body {
 .image__box-img{
     width: 100%;
     height: 100%;
+}
+
+/* CONTACT US */
+#contactus-section {
+    background-color: #EA8870;
+}
+
+.contactus{
+    display: flex; justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.contactus-map, .contactus-info{
+    width: 50%;
+    color: #26272D;
+    padding: 0 0.5rem;
+}
+
+.contactus-title{
+    font-size: 2.5rem;
+    margin: 0;
+}
+.info-data__title {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.info-data__text{
+    color: #EDE9EE;
+    letter-spacing: 0.1rem;
 }
