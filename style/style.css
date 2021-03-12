@@ -302,3 +302,35 @@ body {
     color: #EDE9EE;
     letter-spacing: 0.1rem;
 }
+
+/* FOOTER */
+#footer {
+    background-color: #26272D;
+}
+
+.footer{
+    display: flex; 
+    justify-content: space-between; align-self: center;
+
+    padding: 4rem 0;
+}
+
+.socialmedia__list{
+    display: flex;
+    justify-content: flex-start; align-items: center;
+    list-style: none;
+}
+
+.socialmedia-list__item{
+    font-size: 2rem;
+    padding: 0.6rem;
+}
+
+.socialmedia-icon{
+    color: #EA8870;
+}
+
+.rights-info{
+    font-size: 0.7rem;
+    color: #EDE9EE;
+}
