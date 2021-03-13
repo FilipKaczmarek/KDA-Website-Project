@@ -51,6 +51,7 @@ main {
 }
 .slider--clicked{
     background-color: #EA8870;
+    transition: background-color 5s ease;
 }
 
 /* NAVBAR */
@@ -377,7 +378,9 @@ main {
 /* Responsive Web Design */
 
 @media screen and (max-width: 770px){
-
+.mySlider{
+    display: none;
+}
 /* NAVBAR */
 .navbar{
     padding: 1rem 1rem;
