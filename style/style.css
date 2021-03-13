@@ -17,6 +17,42 @@ body {
     margin: 0 auto;
 }
 
+/* SLIDER */
+main {
+    position: relative;
+}
+
+.mySlider{
+    opacity: 1;
+    height: 250px;
+    width: 50px;
+
+    position: fixed;
+    right: 0px;
+    top: 35%;
+
+    display: flex; flex-direction: column;
+    justify-content: center; align-self: center;
+}
+
+.slider{
+    width: 20px; height: 20px;
+    border: #26272D 3px solid;
+    border-radius: 50% 50%;
+    margin: 0.5rem 0;
+}
+
+.mySlider a:active > .slider{
+    background-color: #EA8870;
+}
+
+.slider--unclicked{
+    background-color:#EDE9EE;
+}
+.slider--clicked{
+    background-color: #EA8870;
+}
+
 /* NAVBAR */
 #navigation{
     background-color: #EDE9EE;
