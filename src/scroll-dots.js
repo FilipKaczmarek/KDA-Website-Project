@@ -14,7 +14,7 @@ dot.forEach((element) => {
 
 })
 
-// Smooth scroll
+// Smooth scroll - NOT FINISHED 
 const dotLinks = document.querySelectorAll('.slider-link');
 const sectionIDs = ['#header-section', '#aboutus-section', '#testimonials-section', '#ourwork-section', '#contactus-section'];
 const [header, aboutus, testimonials, ourwork, contactus] = sectionIDs;
