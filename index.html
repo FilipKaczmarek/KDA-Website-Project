@@ -35,7 +35,7 @@
                 </button>
             </div>
             <div class="navbar-menu">
-                <ul class="navbar-lists">
+                <ul class="navbar-lists navbar-lists--hidden">
                     <li class="navbar-list__item"><a href="#main">HOME</a></li>
                     <li class="navbar-list__item"><a href="#aboutus-section">ABOUT</a></li>
                     <li class="navbar-list__item"><a href="#testimonials-section">TESTIMONIALS</a></li>
@@ -48,11 +48,11 @@
 
     <main id="main">
         <div class="mySlider">
-            <a href="#header-section"><div class='slider slider--unclicked'></div></a>
-            <a href="#aboutus-section"><div class='slider slider--unclicked'></div></a>
-            <a href="#testimonials-section"><div class='slider slider--unclicked'></div></a>
-            <a href="#ourwork-section"><div class='slider slider--unclicked'></div></a>
-            <a href="#contactus-section"><div class='slider slider--unclicked'></div></a>
+            <a class='slider-link' href="#header-section"><div class='slider slider--clicked'></div></a>
+            <a class='slider-link' href="#aboutus-section"><div class='slider slider--unclicked'></div></a>
+            <a class='slider-link' href="#testimonials-section"><div class='slider slider--unclicked'></div></a>
+            <a class='slider-link' href="#ourwork-section"><div class='slider slider--unclicked'></div></a>
+            <a class='slider-link' href="#contactus-section"><div class='slider slider--unclicked'></div></a>
         </div>
         <section id="header-section">
             <div class="home-page max-section--width">
@@ -166,6 +166,8 @@
         </div>
     </footer>
 
-    <script src="./src/"></script>
+    <script src="./src/script.js"></script>
+    <script src="./src/scroll-dots.js"></script>
+    <script src="./src/navMobile.js"></script>
 </body>
 </html>
