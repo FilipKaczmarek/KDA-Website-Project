@@ -377,7 +377,9 @@ main {
 /* Responsive Web Design */
 
 @media screen and (max-width: 770px){
-
+.mySlider{
+    display: none;
+}
 /* NAVBAR */
 .navbar{
     padding: 1rem 1rem;
@@ -485,6 +487,8 @@ main {
 }
 
 @media screen and (max-width: 425px) {
+
+
 /* NAVBAR */
 .navbar{
 
@@ -603,7 +607,7 @@ main {
 
 /* TESTIMONIALS */
 .testimonials{
-    min-height: 50vh;
+    height: fit-content;
     padding: 2rem 0.5rem;
 }
 
