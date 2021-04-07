@@ -1,9 +1,8 @@
 import {navMobile} from './navMobile.js'
-import {createMap} from './mapGoogle.js'
 
+// INIT
 function init(){
     navMobile()
-    createMap()
 }
 
 init()

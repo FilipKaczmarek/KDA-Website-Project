@@ -327,7 +327,7 @@ main {
 .contactus-map, .contactus-info{
     width: 50%;
     color: #26272D;
-    padding: 0 0.5rem;
+    padding: 0 2.5rem;
 }
 
 .contactus-title{
@@ -706,6 +706,7 @@ main {
     width: 100%;
     height: 100%;
     padding: 0.5rem 0.5rem;
+    position: relative;
 }
 
 .contactus-title{
